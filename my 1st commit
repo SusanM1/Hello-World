@@ -1,0 +1,6 @@
+Echo "# Hello-World" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origins https://githun.com/SusanM1/Hello-World.git
+git psh -u origins master
